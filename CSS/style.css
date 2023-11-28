@@ -1,0 +1,121 @@
+/* CSS page to design my home and about me page;
+*/
+/* 
+    Created on : Nov 28, 2020, 5:12:23 PM
+    Author     : divyak
+*/
+
+/*home page is this lilac shade, and ensures all text is centered and black*/
+*{
+    background-color: #ECD5EC;
+    text-align: center;
+    color: black;
+}
+
+/*makes sure all images are the same, square size*/
+img{
+  display: block;
+  margin: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  /*crops instead of distorting image to resize*/
+  object-fit: cover;
+      
+}
+
+h1{
+    font-size: 300%;
+    font-family: 'Nerko One', cursive;
+}
+
+/*applied to the links that go to the different pages (i.e. About Me and Back to Home)*/
+.page-link{
+    margin: auto;
+    font-size: 200%;
+    font-family: 'Nerko One', cursive;
+    color: black;
+    padding-bottom: 3%
+}
+
+/*applies to all the fun fact links; ensures they don't look out of place*/
+p a{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    /*gives more breathing room to the page*/
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.title{
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+/*a plain, readable font for the words*/
+.fun-fact{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*the sizing for the image of the chef is different than the rest, of the food*/
+#selfie{
+    width: 20%;
+    height: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 10px solid black;
+}
+
+/*the style applied to the p element text on the about me page*/ 
+#bio{
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*makes sure that the list is centered, but that the bullet points go to the center, with the words*/
+ul{
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+
+/*brings the words next to the bullet points*/ 
+li{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 125%;
+    margin-bottom: 2%;
+}
+
+/*styling for the p element that introduces the helpful websites*/
+#website{
+    font-family: 'Nerko One', cursive;
+    font-size: 250%;
+    margin-bottom: 0%;
+}
+
+/*applied to every element on the about me page, for the caramel background*/
+.about-me{
+    background-color: #e9bc9f;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+/*adds red flair to the titles*/
+span{
+    color: red;
+}
